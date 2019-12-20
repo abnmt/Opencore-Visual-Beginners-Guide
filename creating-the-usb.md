@@ -27,7 +27,7 @@ Recommended BIOS settings:
   * Intel SGX
   * Intel Platform Trust
   * CFG Lock\(MSR 0xE2 write protection\)
-    * If this can't be turned off in the BIOS\(or even found\) please consider patching it out. See [Fixing CFG Lock](extras/msr-lock.md) for more info.
+    * If this can't be turned off in the BIOS\(or even found\) please consider patching it out. See [Fixing CFG Lock]() for more info.
     * AMD CPU users don't need to worry about.
 * Enable
   * VT-x

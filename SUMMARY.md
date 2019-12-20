@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Under Construction](README.md)
+* [Introduction & TODO](introduction-and-todo.md)
 * [Creating the USB](creating-the-usb.md)
 * [Gathering files](ktext.md)
 
@@ -15,6 +16,7 @@
 
 * [Emulated NVRAM](post-install/nvram.md)
 * [Security and FileVault](post-install/security.md)
+* [OS Updates & Maintenance](post-install/updates.md)
 
 ## Troubleshooting
 
@@ -22,12 +24,7 @@
 * [Fixing Resolution and Verbose](troubleshooting/verbose.md)
 * [OpenCore Debugging](troubleshooting/debug.md)
 
-## Extras
-
-* [Fixing CFG Lock](extras/msr-lock.md)
-* [Multiboot](https://hackintosh-multiboot.gitbook.io/hackintosh-multiboot/)
-
 ## Misc
 
-* [Credit](misc/credit.md)
+* [Credits](misc/credit.md)
 
