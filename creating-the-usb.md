@@ -39,7 +39,7 @@ Recommended BIOS settings:
 
 **Note for legacy users**
 
-* If you want to use OpenCore on your system, please follow the [Legacy Install](extras/legacy.md) section first, after you can continue following the **Base folder structure** section
+* If you want to use OpenCore on your system, please follow the [Legacy Install]() section first, after you can continue following the **Base folder structure** section
 
 ## Creating the USB
 
