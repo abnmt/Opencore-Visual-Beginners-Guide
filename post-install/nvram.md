@@ -8,11 +8,11 @@ So this section is for those who don't have native NVRAM, the most common hardwa
 * H370
 * Q370
 * Z390
-* Some X99 and X299 (verify if you have working NVRAM below)
+* Some X99 and X299 \(verify if you have working NVRAM below\)
 
 ## Cleaning out the Clover gunk
 
-So some may not have noticed but Clover may have installed RC scripts into macOS for proper NVRAM emulation. This is an issue as it conflicts with OpenCore's method of emulation. 
+So some may not have noticed but Clover may have installed RC scripts into macOS for proper NVRAM emulation. This is an issue as it conflicts with OpenCore's method of emulation.
 
 Files to delete:
 
@@ -29,23 +29,26 @@ If folders are empty then delete them as well:
 * `/etc/rc.boot.d`
 * `/etc/rc.shutdown.d​`
 
-
 ## Verifying if you have working NVRAM
 
 To start, open terminal and run the following one line at a time:
-```
+
+```text
 sudo -s
 nvram -c
 nvram myvar=test
 exit
 ```
+
 Now reboot and run this:
-```
+
+```text
 nvram -p | grep -i myvar
 ```
+
 If nothing returns then your NVRAM is not working. If a line containing `myvar test` returns, your NVRAM is working.
 
-## Enabling emulated NVRAM (with a nvram.plist)
+## Enabling emulated NVRAM \(with a nvram.plist\)
 
 To enable emulated NVRAM, you'll need 3 things set:
 
@@ -60,7 +63,7 @@ And within your EFI:
 
 * `FwRuntimeServices.efi` driver\(this is needed for proper sleep, shutdown and other services to work correctly
 
-Now grab the 'LogoutHook.command' and place it somewhere safe (e.g. within your user directory, as shown below):
+Now grab the 'LogoutHook.command' and place it somewhere safe \(e.g. within your user directory, as shown below\):
 
 `/Users/(your username)/LogoutHook/LogoutHook.command`
 

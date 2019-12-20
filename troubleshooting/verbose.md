@@ -1,10 +1,11 @@
-# Hiding Verbose
+# Fixing Resolution and Verbose
 
 Wanting a more clean booting experience with macOS without all that verbose text while booting? Well you need a couple things:
 
 ## Recommended Configuration:
 
 **`NVRAM -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> boot-args`**
+
 * Remove `-v` from your config.plist
 
 **`UEFI -> Protocols`**:

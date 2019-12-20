@@ -1,33 +1,33 @@
-# Security
+# Security and FileVault
 
 So something that makes OpenCore truly special is how it's been built with security in mind which is quite rare especially in the Hackintosh community. Well here we'll be going through setting up FileVault and talking about 2 features of OpenCore:
 
 * ScanPolicy
-* Vault(work in progress)
+* Vault\(work in progress\)
 
 ## FileVault Setup
 
 To start, you'll need the following .efi drivers:
 
-* VirtualSMC.efi(To be used in conjunction with VirtualSMC.kext)
+* VirtualSMC.efi\(To be used in conjunction with VirtualSMC.kext\)
 * FwRuntimeServices.efi
-   * UsbKbDxe.efi may be needed if OpenCore's builtin input doesn't work
+  * UsbKbDxe.efi may be needed if OpenCore's builtin input doesn't work
 
 Setting in your config.plist:
 
-* Misc -> Boot 
-   * `PollAppleHotKeys` set to YES(While not needed can be helpful)
-* NVRAM -> Add -> 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14
-   * `UIScale` set to `02` for high resolution small displays
-* UEFI -> Input
-   * `KeySupport` set to YES(Only when using OpenCore's builtin input, users of UsbKbdxe should avoid)
-* UEFI -> Protocols
-   * `FirmwareVolume` set to YES
-   * `HashServices` set to YES for Haswell and older, this is needed for systems with broken SHA-1 hashing
-* UEFI -> Quirks
-   * `ProvideConsoleGOP` to YES
-   * `RequestBootVarRouting` set to YES
-   * `ExitBootServicesDelay` set to `5` if you recieve `Still waiting for root device` on Aptio IV firmwares(Haswell and older)
+* Misc -&gt; Boot 
+  * `PollAppleHotKeys` set to YES\(While not needed can be helpful\)
+* NVRAM -&gt; Add -&gt; 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14
+  * `UIScale` set to `02` for high resolution small displays
+* UEFI -&gt; Input
+  * `KeySupport` set to YES\(Only when using OpenCore's builtin input, users of UsbKbdxe should avoid\)
+* UEFI -&gt; Protocols
+  * `FirmwareVolume` set to YES
+  * `HashServices` set to YES for Haswell and older, this is needed for systems with broken SHA-1 hashing
+* UEFI -&gt; Quirks
+  * `ProvideConsoleGOP` to YES
+  * `RequestBootVarRouting` set to YES
+  * `ExitBootServicesDelay` set to `5` if you recieve `Still waiting for root device` on Aptio IV firmwares\(Haswell and older\)
 
 With all this, you can proceed to enable FileVault like on a normal mac under `System Preferences -> Security & Privacy -> FileVault`
 
@@ -110,16 +110,14 @@ And converting this to decimal gives us `5,177,603`
 **Work in progress**
 
 What is vaulting? Well vaulting is based around 2 things, vault.plist and vault.sig:
+
 * vault.plist: a "snapshot" of your EFI
 * vault.sig: validation of vault.plist
 
 Do note that nvram.plist won't be vaulted
 
-
-
 Setting in your config.plist:
+
 * `RequireSignature` set to YES
 * `RequireVault` set to YES
-
-
 

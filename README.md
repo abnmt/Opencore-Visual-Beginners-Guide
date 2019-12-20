@@ -1,3 +1,10 @@
+---
+description: >-
+  This guide will be a simplified vanilla Hackintosh Guide with the use of some
+  visual tools such as TINU, Hackintool and OpenCore Configurator added, while
+  limiting the guide to current hardware.
+---
+
 # Introduction
 
 ### About
@@ -22,10 +29,11 @@ Lastly, this guide is only meant to be a starting point in your journey with Ope
 
 * Kernel extensions are loaded in the order specified in your config file, so you must load an extension's dependencies before you load the extension itself. For example, Lilu must be loaded before WhateverGreen or VirtualSMC.
 * ACPI patches and SSDTs are applied to all operating systems. Adjust your SSDTs with `If (_OSI ("Darwin")) {}` or use [rEFind](http://rodsbooks.com/refind/) in conjunction with OpenCore.
-* Some systems require pure UEFI mode to boot. (This setting is commonly called "Windows 8/10 Mode" by motherboard manufacturers. See also on [flashing a UEFI ROM onto older GPUs](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Radeon.en.md))
+* Some systems require pure UEFI mode to boot. \(This setting is commonly called "Windows 8/10 Mode" by motherboard manufacturers. See also on [flashing a UEFI ROM onto older GPUs](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Radeon.en.md)\)
 * Issues can occur if NVMe devices are set up as SATA devices in the BIOS.
 * OpenCore requires a version of macOS that supports a prelinked kernel, this means any installs of OS X 10.7 Lion or newer are supported with some later versions of OS X 10.6 Snow Leopard also having support.
 
 ## Hey why does this guide look quite similar to CorpNewt's Vanilla Guide?
 
 Well, when I made the [original OpenCore guide](https://github.com/khronokernel/Getting-Started-With-OpenCore) I was quite disappointed in how the whole thing was set up. It felt clunky, confusing and quite easy to get lost in as hardware-specific changes were hard to see. So I took CorpNewt's [r/Hackintosh Vanilla Desktop Guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) as a base and built it up from there. Full credit to him and also seriously a great guy, definitely check him out on [Github](https://github.com/corpnewt)\(Don't worry I've talked to Corp about all this\).
+

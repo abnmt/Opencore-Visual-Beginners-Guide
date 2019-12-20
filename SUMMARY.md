@@ -14,7 +14,7 @@
 
 ## AMD Config.plist
 
-* [Zen/ThreadRipper](AMD/AMD-config.md)
+* [Zen/ThreadRipper](amd-config.plist/amd-config.md)
 
 ## Post Install
 
@@ -24,17 +24,18 @@
 
 ## Troubleshooting
 
-* [General Troubleshooting](extras/troubleshooting.md)
-* [Fixing Resolution and Verbose](extras/verbose.md)
-* [OpenCore Debugging](extras/debug.md)
+* [General Troubleshooting](troubleshooting/troubleshooting.md)
+* [Fixing Resolution and Verbose](troubleshooting/verbose.md)
+* [OpenCore Debugging](troubleshooting/debug.md)
 
 ## Extras
 
 * [Legacy Install](extras/legacy.md)
 * [Fixing KALSR slide values](extras/kalsr-fix.md)
-* [Fixing CFG Lock](post-install/msr-lock.md)
+* [Fixing CFG Lock](extras/msr-lock.md)
 * [Multiboot](https://hackintosh-multiboot.gitbook.io/hackintosh-multiboot/)
 
 ## Misc
+
 * [Credit](misc/credit.md)
 
