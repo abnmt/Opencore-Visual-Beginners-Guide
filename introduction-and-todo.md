@@ -29,8 +29,8 @@ I would like to create a beginner friendly OpenCore guide which uses mainly GUI 
 
 On a computer with macOS and Xcode follow these steps
 
-1. Download [OCBuilder](https://github.com/Pavo-IM/ocbuilder/releases)
-2. Download OpenCore via OCBuilder \(check OC version\)
+1. Download and run [OCBuilder](https://github.com/Pavo-IM/ocbuilder/releases)
+2. Build OpenCore incl. kexts using OCBuilder \(check OC version\)
 3. [Download Open Core Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) \(check OCC version compatibility\)
 4. Copy sample.plist to EFI folder and rename
 5. Edit config.plist in Open Core Configurator \(following the guide\)
