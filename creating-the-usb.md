@@ -1,3 +1,7 @@
+---
+description: unmodified from Opencore-Vanilla-Desktop-Guide
+---
+
 # Creating the USB
 
 ## Setting up OpenCore

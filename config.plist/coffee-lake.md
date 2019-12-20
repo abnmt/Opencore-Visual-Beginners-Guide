@@ -1,3 +1,7 @@
+---
+description: unmodified from Opencore-Vanilla-Desktop-Guide (integrate Kaby Lake into this)
+---
+
 # Coffee Lake
 
 ### Starting Point

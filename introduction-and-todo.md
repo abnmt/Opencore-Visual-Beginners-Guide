@@ -1,4 +1,25 @@
+---
+description: Under Construction (this is just a work in progress)
+---
+
 # Introduction & TODO
+
+### Quickstart Overview
+
+On a computer with macOS and Xcode do the following
+
+1. Download OCBuilder
+2. Download OpenCore via OCBuilder \(check OC version\)
+3. [Download Open Core Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) \(check OCC version compatibility\)
+4. Copy sample.plist to EFI folder and rename
+5. Edit config.plist in Open Core Configurator \(following the guide\)
+6. Download TINU
+7. Download macOS using TINU \(via App Store\)
+8. Create USB using TINU \(which adds macOS and OC EFI folder\)
+
+### Why this guide
+
+I want to create a beginner friendly OpenCore guide which uses advanced GUI Tools to create a vanilla hackintosh install. Everything done by these GUI tools is transparent to the user and allows complete customisation. All downloads are from official sources, usually from the Github repos of the original developers.
 
 ### Who this guide is for
 
@@ -24,5 +45,6 @@
 * Hackintool 2.8.8 or above
 * OpenCore 0.5.3 or above
 * Open Core Configurator 1.10.2 or above
-* optional OC-Tool
+* OCBuilder
+* optional [OC-Tool](https://github.com/rusty-bits/OC-tool) for maintenance
 

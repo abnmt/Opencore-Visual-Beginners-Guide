@@ -1,11 +1,12 @@
 ---
 description: >-
-  This guide will be a simplified vanilla Hackintosh Guide with the use of some
-  visual tools such as TINU, Hackintool and OpenCore Configurator added, while
-  limiting the guide to current hardware.
+  Based on OpenCore Vanilla Guide (most sections still unmodified from
+  Opencore-Vanilla-Desktop-Guide)
 ---
 
-# Under Construction
+# Under Construction - do not use yet!
+
+**This will be a simplified vanilla hackintosh guide using some GUI tools such as TINU, Hackintool and OpenCore Configurator, while limiting the guide to current hardware. \(If I ever get to finish this OpenCore Visual Beginners Guide it might eventually be useful for others. For now I will just document my own workflows and my use of certain tools, for future reference.\)**
 
 ### About
 
