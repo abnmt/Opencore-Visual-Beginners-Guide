@@ -25,7 +25,7 @@ macOS 10.14.1+ does not work with the USB port limit patch and therefore there i
 7.  Reboot if you need to install one of the additional kexts then run Hackintool again
 8.  Go to the General-&gt;USB tab
 9.  Select all items in the USB Ports list and select the “Delete” then the “Refresh” button
-10.  Reboot with -uia\_exclude\_ss uia\_include=HS01,HS02 boot flags
+10.  Reboot with -uia\_exclude\_ss uia\_include=HS01,HS02 boot flags \(\(This is mixed up\)\)
     * Change the HS01,HS02 ports to the ones you have your mouse and keyboard attached
 11.  Run Hackintool and go to the General-&gt;USB tab
 12. Plug and unplug a USB 2.0 device into all ports on your system
