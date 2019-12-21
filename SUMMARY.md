@@ -14,6 +14,7 @@
 
 ## Post Install
 
+* [USB Port Patching](post-install/usb-port-patching.md)
 * [Emulated NVRAM](post-install/nvram.md)
 * [Security and FileVault](post-install/security.md)
 * [OS Updates & Maintenance](post-install/updates.md)
