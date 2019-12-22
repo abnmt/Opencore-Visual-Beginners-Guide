@@ -2,7 +2,7 @@
 description: 'Under Construction (this is just a work in progress) [inline TODO]'
 ---
 
-# Introduction & TODO
+# Introduction
 
 ### Why this guide
 
@@ -29,13 +29,14 @@ I would like to create a beginner friendly OpenCore guide which uses mainly GUI 
 
 On a computer with macOS follow these steps
 
-* Download TINU \([3.0 Beta 2](https://mega.nz/#!D0IgVa6R!Bdl5yY5p6GBilWxqTly7RbEACSIKobrF9m-SvmIBL8M)\) and run
+* Download [TINU](https://github.com/ITzTravelInTime/TINU/releases) \(or TINU [3.0 Beta 2](https://mega.nz/#!D0IgVa6R!Bdl5yY5p6GBilWxqTly7RbEACSIKobrF9m-SvmIBL8M)\) and run
 * Download macOS using TINU via App Store \(or using [Dosdude macOS Patcher](http://dosdude1.com/software.html) \)
 * Create USB using TINU \(which formats USB stick and adds macOS\)
 * Return to TINU Main Menu and _Mount EFI Partition_ \(Open in Finder\)
 * Download the following tools to the USB stick \(on _Install macOS ..._ partition\)
-  * Download Hackintool
-  * [Download Open Core Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) \(OCC\) 
+  * [Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip)
+  * [MaciASL](https://github.com/acidanthera/MaciASL/releases) 
+  * [Open Core Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) \(OCC\) 
 * Run OCC to download OpenCore drivers and kexts to the USB EFI Partition
   * Tools - Open Core Downloader - select Location: EFI
   * Tools - Install Drivers - target partition: EFI
@@ -46,7 +47,9 @@ On a computer with macOS follow these steps
 * Reboot from main disk
 * On new macOS use Hackintool for USB mapping
 
-#### Edit config.plist in Open Core Configurator \(following the guide\)
+#### Edit config.plist in Open Core Configurator
+
+\[add screenshots, and details for each CPU platform\] 
 
 Hover over each option with the mouse which will show explanation from _Configuration.pdf._ For easier reading also Open Docs/Configuration.pdf next to OCC 
 
@@ -99,13 +102,14 @@ On a computer with macOS and Xcode follow these steps
 
 ### Software to download and Tools to be used
 
-* Xcode \(only for OCBuilder and plist editor\)
-* TINU 3.0 Beta 2 or above
+* * TINU 3.0 Beta 2 or above
   * macOS Mojave 10.14.6+ or Catalina 10.15.2+
 * Hackintool 2.8.8 or above
 * OpenCore 0.5.3 or above
 * Open Core Configurator 1.10.2 or above
 * MaciASL 1.5.6 or above from [https://github.com/acidanthera/MaciASL/releases](https://github.com/acidanthera/MaciASL/releases)
 * possibly OCBuilder \([Support thread](https://www.insanelymac.com/forum/topic/339346-opencore-build-app/)\)
+* Xcode \(required for OCBuilder also for plist editor\)
 * optional [OC-Tool](https://github.com/rusty-bits/OC-tool) for maintenance
-
+* optional PlistEdit Pro
+* 

@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Under Construction - do not use yet!](README.md)
-* [Introduction & TODO](introduction-and-todo.md)
+* [Introduction](introduction-and-todo.md)
 * [Creating the USB](creating-the-usb.md)
 * [Gathering files](ktext.md)
 
