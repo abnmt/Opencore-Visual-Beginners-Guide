@@ -1,7 +1,3 @@
----
-description: unmodified from Opencore-Vanilla-Desktop-Guide
----
-
 # Kaby Lake
 
 ### Starting Point

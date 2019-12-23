@@ -1,9 +1,3 @@
----
-description: >-
-  unmodified from Opencore-Vanilla-Desktop-Guide (add script to clean out Clover
-  files)
----
-
 # Emulated NVRAM
 
 So this section is for those who don't have native NVRAM, the most common hardware to have incompatible native NVRAM with macOS are the non-Z370 300 series chipsets:

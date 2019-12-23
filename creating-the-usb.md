@@ -1,7 +1,3 @@
----
-description: unmodified from Opencore-Vanilla-Desktop-Guide
----
-
 # Creating the USB
 
 ## Setting up OpenCore
@@ -31,7 +27,7 @@ Recommended BIOS settings:
   * Intel SGX
   * Intel Platform Trust
   * CFG Lock\(MSR 0xE2 write protection\)
-    * If this can't be turned off in the BIOS\(or even found\) please consider patching it out. See [Fixing CFG Lock]() for more info.
+    * If this can't be turned off in the BIOS\(or even found\) please consider patching it out. See [Fixing CFG Lock](extras/msr-lock.md) for more info.
     * AMD CPU users don't need to worry about.
 * Enable
   * VT-x
@@ -43,7 +39,7 @@ Recommended BIOS settings:
 
 **Note for legacy users**
 
-* If you want to use OpenCore on your system, please follow the [Legacy Install]() section first, after you can continue following the **Base folder structure** section
+* If you want to use OpenCore on your system, please follow the [Legacy Install](extras/legacy.md) section first, after you can continue following the **Base folder structure** section
 
 ## Creating the USB
 

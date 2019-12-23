@@ -1,14 +1,12 @@
----
-description: Draft
----
-
 # Haswell
 
 ### Starting Point
 
-You'll want to start with the `sample.plist` that you find in the in the DOCS folder of OCBuilder\_Completed and copy it to the `EFI/OC/` folder rename it to `config.plist`. Next, open `config.plist` in Open Core Configurator.
+You'll want to start with the sample.plist that OpenCorePkg provides you in the DOCS folder and rename it to config.plist. Next, open up your favourite XML editor like [ProperTree](https://github.com/corpnewt/ProperTree) and we can get to work.
 
-Do note that images may not always be the most up-to date so please read the text below them.
+Users of ProperTree will also get the benifit of running the Snapshot function which will add all the Firmware drivers, kexts and SSDTs into your config.plist\(Cmd/Crtl + R and point to your OC folder\).
+
+Do note that images will not always be the most up-to date so please read the text below them.
 
 **And read this guide more than once before setting up Opencore and make sure you have it setup correctly**
 

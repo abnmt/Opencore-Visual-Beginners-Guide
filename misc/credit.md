@@ -1,8 +1,4 @@
-# Credits
-
-### Tools credits
-
-### Guide credits
+# Credit
 
 No good guide is made by one man, here's credit to those who've helped out:
 
@@ -56,14 +52,14 @@ Guides linked or those that inspired this guide:
 
 Gotta rep dat ~~merch~~ guides:
 
-* [Getting Started With OpenCore](https://github.com/khronokernel/Getting-Started-With-OpenCore) \(The guide that started it all\)
+* [Getting Started With OpenCore](https://github.com/khronokernel/Getting-Started-With-OpenCore)\(The guide that started it all\)
 * [GPU Buyers Guide](https://khronokernel-3.gitbook.io/catalina-gpu-buyers-guide/)
 * [Disable Unsupported GPUs](https://khronokernel-4.gitbook.io/disable-unsupported-gpus/)
 * [Anti-Hackintosh Buyers Guide](https://khronokernel-5.gitbook.io/anti-hackintosh-buyers-guide/)
 
 And for those who have either recommendations or issues with this guide can find the Github for this site [here](https://github.com/khronokernel/Opencore-Vanilla-Desktop-Guide)
 
-#### Sources:
+Sources:
 
 * KALSR slide:
   * [Vit9696's Explainer](https://www.insanelymac.com/forum/topic/331381-aptiomemoryfix/?do=findComment&comment=2564269)
